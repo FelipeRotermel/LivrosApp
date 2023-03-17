@@ -6,9 +6,14 @@ export default function App() {
       <Text style={styles.titulo}>Livros</Text>
       <ScrollView horizontal pagingEnabled>
       <View style={styles.livros}>
-        <Image style={styles.imagens} source={require('./images/minecraft.jpg')} />
-        <Text style={styles.texto}>A Bíblia Para Minecrafters </Text>
-        <Text style={styles.preco}>R$: 63,72</Text>
+        <Image style={styles.imagens} source={require('./images/1984.png')} />
+        <Text style={styles.texto}>1984 - George Orwell</Text>
+        <Text style={styles.preco}>R$: 14,90</Text>
+      </View>
+      <View style={styles.livros}>
+        <Image style={styles.imagens} source={require('./images/narnia.png')} />
+        <Text style={styles.texto}>As Crônicas de Nárnia </Text>
+        <Text style={styles.preco}>R$: 42,41</Text>
       </View>
       <View style={styles.livros}>
         <Image style={styles.imagens} source={require('./images/minecraft.jpg')} />
@@ -16,14 +21,24 @@ export default function App() {
         <Text style={styles.preco}>R$: 63,72</Text>
       </View>
       <View style={styles.livros}>
-        <Image style={styles.imagens} source={require('./images/minecraft.jpg')} />
-        <Text style={styles.texto}>A Bíblia Para Minecrafters </Text>
-        <Text style={styles.preco}>R$: 63,72</Text>
+        <Image style={styles.imagens} source={require('./images/comunista.jpeg')} />
+        <Text style={styles.texto}>Manifesto Comunista</Text>
+        <Text style={styles.preco}>R$: -63,72</Text>
       </View>
       <View style={styles.livros}>
-        <Image style={styles.imagens} source={require('./images/minecraft.jpg')} />
-        <Text style={styles.texto}>A Bíblia Para Minecrafters </Text>
-        <Text style={styles.preco}>R$: 63,72</Text>
+        <Image style={styles.imagens} source={require('./images/pequeno.png')} />
+        <Text style={styles.texto}>O Pequeno Príncipe</Text>
+        <Text style={styles.preco}>R$: 16,47</Text>
+      </View>
+      <View style={styles.livros}>
+        <Image style={styles.imagens} source={require('./images/potter.png')} />
+        <Text style={styles.texto}>Harry Potter e a Pedra Filosofal</Text>
+        <Text style={styles.preco}>R$: 27,99</Text>
+      </View>
+      <View style={styles.livros}>
+        <Image style={styles.imagens} source={require('./images/senhor.png')} />
+        <Text style={styles.texto}>Senhor dos anéis</Text>
+        <Text style={styles.preco}>R$: 60,99</Text>
       </View>
       </ScrollView>
     </View>
